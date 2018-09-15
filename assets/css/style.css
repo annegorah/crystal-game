@@ -1,0 +1,88 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    line-height: normal;
+    background-color: black;
+    background-image: url(../images/background3.png);
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+h1{
+    font-size:54px;
+    text-align:center;
+    font-weight:bold;
+
+}
+
+.instructions{
+    background-color: aliceblue;
+    width: 900px;
+    opacity: 0.7;
+    border-radius: 20px;
+    padding:10px;
+}
+
+.container{
+    align-content: center;
+    width: 960px;
+    margin: 0 auto;    
+}
+
+.crystals{
+    height: 100px;
+    padding:10px;
+}
+
+.gem{
+    text-align:center;
+    
+}
+
+#counters{
+    background-color: aliceblue;
+    width: 900px; 
+    opacity: 0.7;
+    border-radius: 20px;
+    padding:10px;
+}
+
+
+
+#score{
+    background-color: aliceblue;
+    width: 900px;
+    font-size:24px;
+    font-weight: bold;
+    opacity: 0.7;
+    border-radius: 20px;
+    padding:10px;
+}
+
+#randomnumber{
+    font-weight: bold;
+    font-size:24px;
+}
+
+@media screen and (max-width: 960px){
+
+    .container {
+    width: 900px;
+    }
+    }
+    
+    @media screen and (max-width: 768px){
+    
+    .container {
+    
+    width: 768px;
+    
+    }
+    }
+    
+    @media screen and (max-width: 640px){
+    .container {
+    width: 640px;
+    }
+    }
